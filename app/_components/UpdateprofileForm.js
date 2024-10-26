@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 import { updateGuest } from "../_lib/action";
-import SubmitButton from "./submitButton";
+import SubmitButton from "@/app/_components/SubmitButton";
 
 function UpdateprofileForm({ children, guest }) {
   const [count, setCount] = useState(0);
